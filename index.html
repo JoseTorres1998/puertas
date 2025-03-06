@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Operaciones Lógicas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Operaciones Lógicas con Casillas de Verificación</h2>
+  <p>Selecciona las casillas y haz clic en "Evaluar" para ver los resultados de AND, OR y XOR.</p>
+  
+  <form id="miFormulario">
+    <label for="casilla1">Casilla 1</label>
+    <input type="checkbox" id="casilla1" name="casilla1">
+    <br>
+    <label for="casilla2">Casilla 2</label>
+    <input type="checkbox" id="casilla2" name="casilla2">
+    <br>
+    <button type="button" id="evaluar">Evaluar</button>
+  </form>
+  
+  <div id="resultados">
+    <p>AND: <span id="and"></span></p>
+    <p>OR: <span id="or"></span></p>
+    <p>XOR: <span id="xor"></span></p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
